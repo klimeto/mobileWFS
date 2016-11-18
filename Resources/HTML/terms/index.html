@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">                       
+	<head>                                    
+		<title>Proplant Monitor</title>
+		<meta charset="windows-1250">                                                                           
+		<meta name="keywords" content="Protected Species, Open data, MyGeoss">                                       
+		<meta name="author" content="FZKI">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    	<link rel="stylesheet" href="../lib/style.css" type="text/css">
+		<script src="../lib/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript">
+
+		function goTo(link){
+				$('html, body').animate({
+					scrollTop: ($(link).offset().top)-100
+				},500);
+				document.getElementById("menu_mobil").style.display="none";
+			}     
+		function menuZobraz(button, id) 
+			  {
+			  if (document.getElementById(id).style.display=="block")
+				{   
+				document.getElementById(id).style.display="none";
+				}
+			  else 
+				{
+				document.getElementById(id).style.display="block";
+				} 
+			  }
+			  
+		function detekceRozliseni ()
+		  {  
+			document.getElementById("menu_mobil").style.display="none";
+		  }		
+		</script> 
+
+	</head>
+	<body onResize="detekceRozliseni();">
+			<section>
+			<div class="width_settings">
+				<h2 id="about">Terms of use</h2>
+				<div class="colored_line">
+					
+				</div>
+				<p class="plain_text">The data is collected on voluntary basis and will be provided as a free and open dataset licensed under the EU Public License v 1.1. The user needs to register only a nickname (e.g. proplantTester) and the proplant platform will generate a PIN as following example: proplantTester#84. Personal information as name, physical address etc. aren't required. The pictures and locations assigned to the observations are shared together with the nickname of the user who created them. PIN is available only for the Proplant system administrator.</p>
+				<p class="plain_text">By using this application, you <b>agree</b> with our Terms of use</p>
+       	</div>
+		</section>			
+		<footer>
+			<div class="width_settings">
+				<p>
+				Proplant Monitor, Assoc. Prof. Klaudia Halaszova, Jakub Kocica, Michaela Bulikova<br>2016
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

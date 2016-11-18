@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+        Ti.App.addEventListener("app:fromTitanium", function(e) {
+            console.log("EVAL: "+e.message);
+            try{ eval(e.message); }catch(e){
+            	//console.log("###################CATCH");
+            }
+        });
+    </script>
+    <style>
+		.markerGPS{ margin-top: -16px; margin-left: -16px; z-index: 1}
+		.markerDB{ margin-top: -16px; margin-left: -16px; z-index: 2}
+	</style>
+    <title>Proplant mobile App - OL Map</title>
+    <!-- the viewport is important for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="ol3.css" type="text/css" />
+    <link rel="stylesheet" href="ol3-layerswitcher.css" type="text/css" />
+    <link rel="stylesheet" href="samples.css" type="text/css" />
+    <link rel="stylesheet" href="layerswitcher.css" type="text/css" />
+	
+	<script src="jquery.js"></script>
+  </head>
+  <body>
+    <div id="map" class="full-map">
+    	
+    </div>	
+    <script src="ol3.js"></script>
+    <script src="ol3-layerswitcher.js"></script>
+    
+    
+      <script type="text/javascript">
+
+				//base layers
+				
+				var osmcarto = new ol.layer.Tile({
+					title: 'OSM Online',
+					type: 'base',
+					visible: true,
+		      		//extent: ol.proj.transformExtent(mapExtent, 'EPSG:4326', 'EPSG:3857'),
+		      		source : new ol.source.XYZ({
+		      			
+		      			crossOrigin : 'Anonymous',
+		      			urls : ['https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', 'https://b.tile.openstreetmap.org/{z}/{x}/{y}.png', 'https://c.tile.openstreetmap.org/{z}/{x}/{y}.png'],
+		      		})
+		      	});
+		      	
+		      	var osmoffline = new ol.layer.Tile({
+		      		title: 'OSM Offline',
+					type: 'base',
+					visible: false,
+		      		//extent: ol.proj.transformExtent(mapExtent, 'EPSG:4326', 'EPSG:3857'),
+		      		source : new ol.source.XYZ({
+		      			crossOrigin : 'Anonymous',
+		      			url : 'file:///storage/sdcard0/hr.bolegweb.proplant/offline/{z}/{x}/{y}.png'
+		      		})
+		      	});
+				
+				
+				var map = new ol.Map({
+					target: document.getElementById('map'),
+					layers: [
+						new ol.layer.Group({
+							title: 'Offline',
+							layers: [osmoffline]
+						}),
+						new ol.layer.Group({
+							title: 'Online',
+							layers: [osmcarto]
+						})
+						
+						
+					],
+					view: new ol.View({
+						center: ol.proj.transform([20.6039, 48.5937], 'EPSG:4326', 'EPSG:3857'),
+						zoom: 3
+					}),
+					controls: ol.control.defaults().extend([
+					  new ol.control.ScaleLine()
+					]),
+				});
+
+				var layerSwitcher = new ol.control.LayerSwitcher({});
+				map.addControl(layerSwitcher);
+						
+				// ADDING GPS ANNOTATIONS TO OL MAP
+				function addAnnotation(featIdIn,longitude,latitude,marker){	
+					onclickText = "try{ Ti.App.fireEvent('app:fromWebView', { message: "+featIdIn+" });  }catch(e){}";
+						map.addOverlay(new ol.Overlay({
+							insertFirst: false,
+							position: ol.proj.transform(
+							[longitude,latitude],
+							'EPSG:4326',
+							'EPSG:3857'
+							),
+						element: $('<img class=markerDB onclick="'+onclickText+'" src="images/'+marker+'">')
+					}));
+					$('.markerGPS').parent().style({zIndex: 1});
+					$('.markerDB').parent().style({zIndex: 2});
+				//return "annotation added...";
+				}
+				// ADDING GPS CURRENT LOCATION ANNOTATIONS TO OL MAP
+				function showMyPosition(longitude,latitude){	
+					// remove old GPS marker
+					map.getOverlays().getArray().slice(0).forEach(function(overlay) {
+						var el =overlay.getElement(); 
+						if( $(el).hasClass('markerGPS') )
+						{
+							map.removeOverlay(overlay);
+						}						
+					});
+					
+					// add GPS marker							
+					//onclickText = "try{ Ti.App.fireEvent('app:fromWebView', { message: "+featIdIn+" });  }catch(e){}";
+					map.addOverlay(new ol.Overlay({
+							insertFirst: true,
+							position: ol.proj.transform(
+							[longitude,latitude],
+							'EPSG:4326',
+							'EPSG:3857'
+							),
+						element: $('<img class=markerGPS src="images/location.png">')
+					}));
+					map.getView().setCenter(ol.proj.transform([longitude, latitude], 'EPSG:4326', 'EPSG:3857'));
+					map.getView().setZoom(18);
+					//return "annotation added...";
+				}
+				function removeAllAnnotations(){
+							map.getOverlays().getArray().slice(0).forEach(function(overlay) {
+								// if markerDB tak remove iny nie
+								// ja nevim jak sa to napise ale nejak takto:
+								var el =overlay.getElement(); 
+								if( $(el).hasClass('markerDB') ){
+									map.removeOverlay(overlay);
+								}
+								//hento nevim ci je spravne ale treba class toho elementu do if() treba test 								
+							});
+						}
+				
+				function zoomOnGPS(longitude,latitude, zoomLevel){
+					if(zoomLevel === undefined) { zoomLevel=13; }
+					//map.removeOverlay(overlay);
+					try{ map.getView().setCenter(ol.proj.transform([longitude, latitude], 'EPSG:4326', 'EPSG:3857')); }catch(e){}
+					
+					if (map.getView().getZoom() < zoomLevel)
+					{
+						map.getView().setZoom(zoomLevel);	
+					}
+					
+					//myPosition = ol.proj.transform([longitude,latitude],'EPSG:4326','EPSG:3857');
+				}
+						
+				// SWITCH INSERT ENABLED DISABLED
+		    	function insertEnable() {
+			      	insertMode = true;
+			    }
+			    function insertDisable() {
+			    	////console.log('####  INSERT MODE IS DEACTIVE ####');
+					insertMode = false;
+			    }
+				
+				function censor(censor) {
+				  var i = 0;
+				
+				  return function(key, value) {
+				    if(i !== 0 && typeof(censor) === 'object' && typeof(value) == 'object' && censor == value) 
+				      return '[Circular]'; 
+				
+				    if(i >= 29) // seems to be a harded maximum of 30 serialized objects?
+				      return '[Unknown]';
+				
+				    ++i; // so we know we aren't using the original object anymore
+				
+				    return value;  
+				  };
+				}
+				function simpleStringify (object){
+				    var simpleObject = {};
+				    for (var prop in object ){
+				        if (!object.hasOwnProperty(prop)){
+				            continue;
+				        }
+				        if (typeof(object[prop]) == 'object'){
+				            simpleObject[prop] = 'object';
+				            continue;
+				        }
+				        if (typeof(object[prop]) == 'function'){
+				            simpleObject[prop] = 'function()';
+				            continue;
+				        }
+				        simpleObject[prop] = object[prop];
+				    }
+				    return JSON.stringify(simpleObject); // returns cleaned up JSON
+				};
+		      // INSERT ANNOTATION
+		      insertMode = false;
+			  
+		      map.on('click', function (evt) {
+		      	if (insertMode) {
+		      		var lonlat = ol.proj.transform(evt.coordinate, 'EPSG:3857', 'EPSG:4326');
+		      		var longitude = lonlat[0];
+		      		var latitude = lonlat[1];
+		      		try{ Ti.App.fireEvent('app:fromWebView2', { longitude: longitude, latitude: latitude});  }catch(e){};
+		      	}	
+		      });
+		      
+		      // PROVIDE URLs TO INDIVIDUAL MAP TILES
+		     
+		      
+		      var source = osmcarto.getSource();
+				var tileUrlFunction = source.getTileUrlFunction();
+				source.on('tileloadend', function (evt) {
+					var url = tileUrlFunction(evt.tile.getTileCoord(), 1, ol.proj.get('EPSG:3857'));
+					var spl = url.split("/");
+					var spl2 = spl[spl.length-1].split(".");
+					
+					var z = spl[spl.length-3];
+					var x = spl[spl.length-2];
+					var y = spl2[0];
+				   
+				    try{ Ti.App.fireEvent('app:fromWebViewTileLoaded', { url: url, z: z, x: x, y: y } );  }catch(e){};
+				});
+				 
+		      var currentZoomLevel;
+		      var currentCenter;
+			  
+			  map.on('moveend', eventListenerMoveEnd);
+			
+				var veryFirstTrigger = true;
+				
+				function eventListenerMoveEnd(evt)
+				{
+					if(veryFirstTrigger)
+					{
+						veryFirstTrigger = false;
+						console.log("...no that was a very first trigger we omit...");
+					}
+					else
+					{
+					  if (map.getView().getZoom() != currentZoomLevel)
+					   {
+						  currentZoomLevel = map.getView().getZoom();
+						  
+						  var lastCenter = (ol.proj.transform((map.getView().getCenter()), 'EPSG:3857', 'EPSG:4326'));
+						  //var lastCenter = map.getView().getCenter();
+						  var lastZoom = map.getView().getZoom();
+						  if(typeof lastCenter == typeof [])
+						  {
+						  	try{ Ti.App.fireEvent('app:fromWebView4', { center: lastCenter, zoom: lastZoom });  }catch(e){};
+						  }
+					   }
+					   if (map.getView().getCenter() != currentCenter)
+					   {
+						  currentCenter = map.getView().getCenter();
+						  
+						  var lastCenter = (ol.proj.transform((map.getView().getCenter()), 'EPSG:3857', 'EPSG:4326'));
+						  //var lastCenter = map.getView().getCenter();
+						  var lastZoom = map.getView().getZoom();
+						  if(typeof lastCenter == typeof [])
+						  {
+						  	try{ Ti.App.fireEvent('app:fromWebView4', { center: lastCenter, zoom: lastZoom});  }catch(e){};
+						  }
+					   }
+					}
+				   
+				}
+
+							
+				function setCenter(currentCenter){
+					//map.getView().setCenter(ol.proj.transform(center, 'EPSG:4326', 'EPSG:3857'));
+					if(typeof currentCenter == typeof []){
+						if(typeof currentCenter[0] == typeof []){
+							currentCenter=currentCenter[0];
+						}
+						
+						
+						map.getView().setCenter(ol.proj.transform( currentCenter, 'EPSG:4326', 'EPSG:3857'));
+					}
+					
+					//map.getView().setCenter(ol.proj.transform(center, 'EPSG:4326', 'EPSG:3857'));
+					
+				}
+		      
+		      	function setZoom(currentZoomLevel){
+					map.getView().setZoom(currentZoomLevel);
+					
+					
+				} 
+				$(document).ready(function(){
+					
+					$('.ol-attribution').hide();
+					
+				});
+    </script>
+  </body>
+</html>

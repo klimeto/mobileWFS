@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">                       
+	<head>                                    
+		<title>Proplant Monitor</title>
+		<meta charset="windows-1250">                                                                           
+		<meta name="keywords" content="Protected Species, Open data, MyGeoss">                                       
+		<meta name="author" content="FZKI">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    <link rel="stylesheet" href="../lib/style.css" type="text/css">
+		<script src="../lib/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript">
+
+		function goTo(link){
+				$('html, body').animate({
+					scrollTop: ($(link).offset().top)-100
+				},500);
+				document.getElementById("menu_mobil").style.display="none";
+			}     
+		function menuZobraz(button, id) 
+			  {
+			  if (document.getElementById(id).style.display=="block")
+				{   
+				document.getElementById(id).style.display="none";
+				}
+			  else 
+				{
+				document.getElementById(id).style.display="block";
+				} 
+			  }
+			  
+		function detekceRozliseni ()
+		  {  
+			document.getElementById("menu_mobil").style.display="none";
+		  }	
+		</script> 
+
+	</head>
+	
+	<body onResize="detekceRozliseni()">
+		
+		<section class="section">
+			<div class="width_settings">
+				<h3 id="contact">Contacts & Acknowledgements</h3>
+				<div class="colored_line">
+					
+				</div>
+			</div>
+					
+		</section>
+		
+		<section class="section_dark">
+			<div class="width_settings">
+				<div class="boxes">
+					<div class="box" onclick="window.open('http://www.fzki.uniag.sk/', '_blank')">
+						<img class="img_box" alt="fzki" src="../img/FZKI_EN.gif" width="150px"/>
+						<h4>SLOVAK UNIVERSITY OF AGRICULTURE IN NITRA</h4>
+						<p class="box_text">Horticulture and Landscape Engineering Faculty</p>
+			</div>
+			</div>
+			</div>
+					
+		</section>
+		
+		<section class="section">
+			<div class="width_settings">
+				<div class="boxes">
+			<div class="box" onclick="window.open('http://digitalearthlab.jrc.ec.europa.eu/mygeoss/', '_blank')">
+						<img class="img_box" alt="mygeoss" src="../img/mygeoss_logo.png" height="110px"/>
+						<h4>MYGEOSS PROJECT</h4>
+						<p class="box_text">MYGEOSS is a two-year project (2015-16) by the European Commission to develop GEOSS-based (Global Earth Observation System of Systems) smart Internet applications informing European citizens on the changes affecting their local environment.</p>
+					</div>
+			</div>
+			</div>
+					
+		</section>
+		
+		<section class="section_dark">
+			<div class="width_settings">
+				<div class="boxes">		
+			<div class="box" onclick="window.open('http://bolegweb.geof.unizg.hr/', '_blank')">
+						<img class="img_box" alt="bolegweb" src="../img/logo_125x125.png" width="150px"/>
+						<h4>BOLEGWEB PROJECT</h4>
+						<p class="box_text">Crosswalking the layers of geospatial information resources to enable a borderless geospatial web</p>
+			</div>
+			</div>
+			</div>
+					
+		</section>
+		
+		<footer>
+			<div class="width_settings">
+				<p>
+				Proplant Monitor, Assoc. Prof. Klaudia Halaszova, Jakub Kocica, Michaela Bulikova<br>2016
+				</p>
+			</div>
+		</footer>
+		
+	</body>
+</html>

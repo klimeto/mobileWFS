@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">                       
+	<head>                                    
+		<title>Proplant Monitor</title>
+		<meta charset="windows-1250">                                                                           
+		<meta name="keywords" content="Protected Species, Open data, MyGeoss">                                       
+		<meta name="author" content="FZKI">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    <link rel="stylesheet" href="../lib/style.css" type="text/css">
+		<script src="../lib/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript">
+
+		function goTo(link){
+				$('html, body').animate({
+					scrollTop: ($(link).offset().top)-100
+				},500);
+				document.getElementById("menu_mobil").style.display="none";
+			}     
+		function menuZobraz(button, id) 
+			  {
+			  if (document.getElementById(id).style.display=="block")
+				{   
+				document.getElementById(id).style.display="none";
+				}
+			  else 
+				{
+				document.getElementById(id).style.display="block";
+				} 
+			  }
+			  
+		function detekceRozliseni ()
+		  {  
+			document.getElementById("menu_mobil").style.display="none";
+		  }
+			
+		</script> 
+
+	</head>
+
+	
+	<body onResize="detekceRozliseni()">
+			<section>
+			<div class="width_settings">
+				<h2 id="home">Home window</h2>
+				<div class="colored_line">
+					
+				</div>
+				<img class="img_box" alt="proplant" src="../img/proplant_logo.png" align="center" style="width: 150px; display: block; margin: auto;"/>
+				<p class="plain_text">After the first launch, the home window is divided in three main blocks: <b>User Login</b> placed at the top, <b>Observations Management</b> placed below, and the <b>Main menu</b> placed in the top right corner of the App home window. A fourth block will appear once the first observation/s is added/updated or removed, this is the <b>Push data to server</b>.</p>
+			</div>
+		</section>
+		
+		<section class="section_dark" >
+			<div class="width_settings">
+				<h3 id="usermanagement">User Management</h3>
+				<div class="colored_line">
+					
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">CHANGE USER</h4>
+						<p class="box_white_text">The first launch of the app comes with predefined user DEMO with its PIN 0. The app can be tested using the DEMO#0 user. If you wanna create a new or SIGN IN with previously created user just click on the button.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Nickname definition</h4>
+						<p class="box_white_text">The app will create a new nickname, if IT does not exist yet, and a unique number (PIN) is assigned to you (ex. 84) after which you are instantly signed in. Each time you will launch the app you will be automatically logged in with your newly created nickname (proplantTester#84). If you use the App in a different device you can use the same nickname and log in.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="section">
+			<div class="width_settings">
+				<h3 id="obsermanagement">Observations Management</h3>
+				<div class="colored_line">
+					
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title" style = "color: #00A20B">New observations</h4>
+						<p class="box_white_text">Under the Observation management Module we have the New observation/s, where a list of observation/s collected on the field is created each time. In the new observation list all observations collected that did not exist before and could be potentially pushed to the proplant database server, to be seen by each user, once you finalized your field observation. Once it is pushed to the server the new observation list will be rest to zero. Each observation block provides the data you collected as e.g. Plant name, Observation date, Certainity of your data, Latitude and Longitude and a toolbox. The toolbox offers tools as open the editor window, zoom on observation within the map window and delete that particular observation. The same tools are provide for each type of observation you're the owner (creator). </p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title" style = "color: #FFD600">Updated observations</h4>
+						<p class="box_white_text">Updated observations are all those new observations you have created and pushed to the proplant data server before, and at the present time you are updating them.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title" style= "color:#FF0000">Removed observations</h4>
+					<p class="box_white_text">Removed observations are agin those already uploaded to the proplant data server and currently being deleted. </p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="section_dark" >
+			<div class="width_settings">
+				<h3 id="mainmenu">Main menu</h3>
+				<div class="colored_line">
+					
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Local data</h4>
+						<p class="box_white_text">Local data item will load all the data available in the app local database and display them on the map. The observations (map markers) have 2 diffrerent type of to distinguish whether the observation is from you or from different user. The <b>yellow marker</b><img src="../openlayers/images/balloon_yellow.png"/> represents observations collected by you; and the <b>blue marker</b> <img src="../openlayers/images/balloon_blue.png"/> collected by another user.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Server data</h4>
+						<p class="box_white_text">Server data item will load all the data available in the proplant data server into the app local database and display them on the map. The observation markers will have different colours as explained in previous point.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Open map</h4>
+					<p class="box_white_text">Open map item will open the map window, with or without loaded the observations.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="section">
+			<div class="width_settings">
+				<h3 id="pushdata">Push data to server</h3>
+				<div class="colored_line">
+					
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Overall statistics</h4>
+						<p class="box_white_text">The overall statistics block provides a summary of observations you have collected as new / updated / removed as well as the number of photographs taken.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Terms and conditions</h4>
+						<p class="box_white_text">Tapping the text <i>You agree with our Terms and conditions</i> will open the Terms of use window describing dataset license.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Discard all</h4>
+					<p class="box_white_text">This button helps to eliminate all the edits that the user made on the observations.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Push all</h4>
+					<p class="box_white_text">This button allows to send to the server (in a push) all the new observation/s or edits/updates the user makes, uploading at the same time the photos taken of the plants. The observations will be sent to the proplant database server and will be available for all users to display and use using OGC WMS and WFS.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+					
+		<footer>
+			<div class="width_settings">
+				<p>
+				Proplant Monitor, Assoc. Prof. Klaudia Halaszova, Jakub Kocica, Michaela Bulikova<br>2016
+				</p>
+			</div>
+		</footer>
+		
+	</body>
+</html>

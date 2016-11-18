@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">                       
+	<head>                                    
+		<title>Proplant Monitor</title>
+		<meta charset="windows-1250">                                                                           
+		<meta name="keywords" content="Protected Species, Open data, MyGeoss">                                       
+		<meta name="author" content="FZKI">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    <link rel="stylesheet" href="../lib/style.css" type="text/css">
+		<script src="../lib/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript">
+
+		function goTo(link){
+				$('html, body').animate({
+					scrollTop: ($(link).offset().top)-100
+				},500);
+				document.getElementById("menu_mobil").style.display="none";
+			}     
+		function menuZobraz(button, id) 
+			  {
+			  if (document.getElementById(id).style.display=="block")
+				{   
+				document.getElementById(id).style.display="none";
+				}
+			  else 
+				{
+				document.getElementById(id).style.display="block";
+				} 
+			  }
+			  
+		function detekceRozliseni ()
+		  {  
+			document.getElementById("menu_mobil").style.display="none";
+		  }
+			
+		</script> 
+
+	</head>
+
+	
+	<body onResize="detekceRozliseni()">
+			<section>
+			<div class="width_settings">
+				<h2 id="mapWindow">Map window</h2>
+				<div class="colored_line">
+					
+				</div>
+				<img class="img_box" alt="proplant" src="../img/proplant_logo.png" align="center" style="width: 150px; display: block; margin: auto;"/>
+				<p class="plain_text">The map window consists full OpenStreetMap, Map tools and Main menu.</p>
+			</div>
+		</section>
+		
+		<section class="section_dark" >
+			<div class="width_settings">
+				<h3 id="usermanagement">OpenStreetMap</h3>
+				<div class="colored_line">
+					
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Map tools</h4>
+						<p class="box_white_text">Basic map tools as zoom in / out are available at the top left corner. In addition the layer switcher offers two types of base map data, OSM Online is using the <a href="https://openstreetmap.org/">OpenStreetMap Carto</a> and OSM Offline created by downloading the PNG tiles from the same OSM server into the device storage.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="section" >
+			<div class="width_settings">
+				<h3 id="obsermanagement">Main menu</h3>
+				<div class="colored_line">
+					
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Locate</h4>
+						<p class="box_white_text">The locate button will determine your position using the GNSS sensor and mobile / WIFI networks if available, center the map on calculated latitude and longitude and add the location marder. Each time you change your location the marker will be moved by pressing Locate button.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Observe</h4>
+						<p class="box_white_text">The observe button will add new observation on the location determined by the device sensors.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Insert</h4>
+					<p class="box_white_text">The insert button will add new observation on the map position you choose by clicking. The App informs the user when insert mode is active by displaying the green block with the text <i>Manual insert mode active - touch map to insert marker</i> at the bottom of the map window. In order to disable the inserting mode you will have to press the Insert menu item.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Capture</h4>
+					<p class="box_white_text">The capture button will trigger the map tile capturing function, which will download the tiles of the OSM map for a particular area defined by the current map window extent and zoom from online OSM server. This map can be then used in the offline mode on the field. The App informs the user about active capturing mode by displaying the red block with the text <i>Capturing the map - it will be available for offline use</i> at the bottom of the map window. In order to disable the inserting mode you will have to press the Capture menu item.</p>
+					</div>
+				</div>
+			</div>
+		</section>		
+		<section>
+			<div class="width_settings">
+				<h2 id="editor">Editor window</h2>
+				<div class="colored_line">
+					
+				</div>
+				<img class="img_box" alt="proplant" src="../img/proplant_logo.png" align="center" style="width: 150px; display: block; margin: auto;"/>
+				<p class="plain_text">The editor window provides editing for to collect attributes for observations.</p>
+			</div>
+		</section>
+		<section class="section_dark" >
+			<div class="width_settings">
+				<h3 id="editingForm">Observation attributes</h3>
+				<div class="colored_line">
+					
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Photograph</h4>
+						<p class="box_white_text">The photograph block is placed at the top left section of the editor window, initially displaying the Proplant logo thumbnail as the plant photograph. In order to display the original image you have to click on the thunbnail what will open a full screen image window with the button launching the camera available only for the owner.</p>
+					</div>
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Plant name</h4>
+						<p class="box_white_text">Palnt name field displays initially text <i>Plant name not defined</i> and after the click opens the plant name list full screen window where you can either scroll or search for a latin name of the protected plant. The list of protected species is based on the <a href="http://www.sopsr.sk/natura/dokumenty/legislativa/eu/priloha5.pdf">Annex 5 of Edict 24/2003</a>.</p>
+					</div>
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Site configuration</h4>
+						<p class="box_white_text">Site configuration describes whether the observation represents a single of a group of plants.</p>
+					</div>
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Observation date</h4>
+						<p class="box_white_text">Observation date represents the time when the observation was measured. The default value is NOW</p>
+					</div>
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Site description</h4>
+						<p class="box_white_text">Site description offers a free text option to provide any additional information that might be important for a particular observation from the user point of view.</p>
+					</div>
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">Certainity</h4>
+						<p class="box_white_text">Certainity field provides information about the data quality assessed by the user who collected the observation by selecting one of the value: <i>high, medium, low, unknown</i>.</p>
+					</div>
+				</div>			
+			</div>
+		</section>
+					
+		<footer>
+			<div class="width_settings">
+				<p>
+				Proplant Monitor, Assoc. Prof. Klaudia Halaszova, Jakub Kocica, Michaela Bulikova<br>2016
+				</p>
+			</div>
+		</footer>
+		
+	</body>
+</html>

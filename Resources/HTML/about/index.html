@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">                       
+	<head>                                    
+		<title>Proplant Monitor</title>
+		<meta charset="windows-1250">                                                                           
+		<meta name="keywords" content="Protected Species, Open data, MyGeoss">                                       
+		<meta name="author" content="FZKI">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    	<link rel="stylesheet" href="../lib/style.css" type="text/css">
+		<script src="../lib/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript">
+
+		function goTo(link){
+				$('html, body').animate({
+					scrollTop: ($(link).offset().top)-100
+				},500);
+				document.getElementById("menu_mobil").style.display="none";
+			}     
+		function menuZobraz(button, id) 
+			  {
+			  if (document.getElementById(id).style.display=="block")
+				{   
+				document.getElementById(id).style.display="none";
+				}
+			  else 
+				{
+				document.getElementById(id).style.display="block";
+				} 
+			  }
+			  
+		function detekceRozliseni ()
+		  {  
+			document.getElementById("menu_mobil").style.display="none";
+		  }		
+		</script> 
+
+	</head>
+
+	
+	<body onResize="detekceRozliseni()">
+			<section>
+			<div class="width_settings">
+				<h2 id="about">About Proplant Monitor</h2>
+				<div class="colored_line">
+					
+				</div>
+				<img class="img_box" alt="proplant" src="../img/proplant_logo.png" align="center" style="width: 150px; display: block; margin: auto;"/>
+				<p class="plain_text">In general, assessment of the biodiversity in global scale cannot react on singular case of particular species habitat change. Previous research works in biodiversity have been based on remote sensing data combined with in-situ fieldwork. Results of these works are processed in various scales, but still on insufficient level of detail for inventarisation and valuation of endangered species. The aim of Proplant Monitor is to fill a gap among the medium resolution observation and individual unit assessment. This issue needs an approach which will provide possibility for evaluation up till the level of single specimen. The main purpose of Proplant Monitor is to give a tool for registration of endangered and protected species in countries of EU in high resolution. The spatial quality of collected data enables high level monitoring of selected taxonomic units. This kind of observation data contains a great information potential useable not only in biodiversity evaluation. With this tool will be easier to focus on the indication groups, represented by specific species. The interoperability with earth observation services allows to compare a results of observation, as well as making a brand new outputs, regardless of service domain.
+        </p>
+			</div>
+		</section>
+		
+		<section class="section_dark" >
+			<div class="width_settings">
+				<h3 id="contribution">Advantages of Proplant Monitor</h3>
+				<div class="colored_line">
+					
+				</div>
+				<div class="boxes">
+					<div class="box_white">
+						<img class="img_white_box" alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">OPEN DATABASE</h4>
+						<p class="box_white_text">The data is open and it is available for your download or sharing. Whether you are botanist, environmental scientist, or you only love nature, our data is not limited for usage. So, does not matter if you use our data as they are, or you make some great analysis or map from them, they are always here for you.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">POWERFUL RESEARCH TOOL</h4>
+						<p class="box_white_text">With our app you enhance your botany knowledge in the field and make your research more attractive. By downloading of our app you get the list of protected species with their correct nomenclature. A lot of species have image identificator, which makes your fieldwork much easier and effective. The past practice with paper map orientation and marking is away. Thanks to base map and GPS location in mobile device you never get lost. You are able to record the position of your current observation, came back on your study site, or find the study site of you colleagues. Geotagged photos you captured on study site are then the icing on the cake of your research.</p>
+					</div>
+					<div class="box_white">
+						<img class="img_white_box"  alt="tick" src="../img/tick.png"/>
+						<h4 class="box_white_title">DYNAMIC AND GLOBAL APPROACH</h4>
+					<p class="box_white_text">Our data are not static. You can monitor the changes of your study site in the various time series or search an area of past occurence for your favorite species. Trough the map viewer you will discover the wider context of your work, or you will find some interesting spots for the next field trip. Furthermore, we want to put as many thematic layers into our map viewer as possible. Thanks to this we can analysing and decision making in wide range of domains.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+					
+		<footer>
+			<div class="width_settings">
+				<p>
+				Proplant Monitor, Assoc. Prof. Klaudia Halaszova, Jakub Kocica, Michaela Bulikova<br>2016
+				</p>
+			</div>
+		</footer>
+		
+	</body>
+</html>

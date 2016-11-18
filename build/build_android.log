@@ -1,0 +1,788 @@
+
+10/13/2016, 6:49:38 PM
+
+Operating System
+  Name                        = Microsoft Windows 10 Education
+  Version                     = 10.0.14393
+  Architecture                = 32bit
+  # CPUs                      = 4
+  Memory                      = 12275539968
+
+Node.js
+  Node.js Version             = 0.12.7
+  npm Version                 = 2.11.3
+
+Titanium CLI
+  CLI Version                 = 5.0.9
+
+Titanium SDK
+  SDK Version                 = 5.3.1.GA
+  SDK Path                    = C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA
+  Target Platform             = android
+
+Command
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\klimeto\.appcelerator\install\5.5.1\package\node_modules\titanium\lib\titanium.js build run --platform android --log-level trace --sdk 5.3.1.GA --project-dir C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS --target device --android-sdk E:\android-sdk-win --device-id G8AZCY08M672LEB --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 64661 --username tomas.kliment@geof.hr --password Only4Klimeto --config-file C:\Users\klimeto\AppData\Local\Temp\build-1476377370961.json --no-banner --project-dir C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS
+
+[WARN]   Building with Android SDK API 24 which hasn't been tested against Titanium SDK 5.3.1
+[DEBUG]  Detecting modules in C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\modules
+[DEBUG]  Detected android module: com.tokenbros.utils 1.0.0 @ C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\modules\android\com.tokenbros.utils\1.0.0
+[DEBUG]  Detected commonjs module: nl.fokkezb.html2as 1.5.0 @ C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\modules\commonjs\nl.fokkezb.html2as\1.5.0
+[DEBUG]  Detecting modules in C:\ProgramData\Application Data\Titanium\modules
+[DEBUG]  Detected android module: facebook 5.0.0 @ C:\ProgramData\Application Data\Titanium\modules\android\facebook\5.0.0
+[DEBUG]  Detected android module: facebook 5.2.0 @ C:\ProgramData\Application Data\Titanium\modules\android\facebook\5.2.0
+[DEBUG]  Detected android module: hyperloop 1.2.7 @ C:\ProgramData\Application Data\Titanium\modules\android\hyperloop\1.2.7
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ C:\ProgramData\Application Data\Titanium\modules\android\ti.cloudpush\3.4.1
+[DEBUG]  Detected android module: ti.map 2.3.10 @ C:\ProgramData\Application Data\Titanium\modules\android\ti.map\2.3.10
+[DEBUG]  Detected android module: ti.map 2.3.6 @ C:\ProgramData\Application Data\Titanium\modules\android\ti.map\2.3.6
+[DEBUG]  Detected android module: ti.touchid 1.0.0 @ C:\ProgramData\Application Data\Titanium\modules\android\ti.touchid\1.0.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.10 @ C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.10
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.11
+[DEBUG]  Detecting modules in C:\ProgramData\Titanium\modules
+[DEBUG]  Detected android module: facebook 5.0.0 @ C:\ProgramData\Titanium\modules\android\facebook\5.0.0
+[DEBUG]  Detected android module: facebook 5.2.0 @ C:\ProgramData\Titanium\modules\android\facebook\5.2.0
+[DEBUG]  Detected android module: hyperloop 1.2.7 @ C:\ProgramData\Titanium\modules\android\hyperloop\1.2.7
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ C:\ProgramData\Titanium\modules\android\ti.cloudpush\3.4.1
+[DEBUG]  Detected android module: ti.map 2.3.10 @ C:\ProgramData\Titanium\modules\android\ti.map\2.3.10
+[DEBUG]  Detected android module: ti.map 2.3.6 @ C:\ProgramData\Titanium\modules\android\ti.map\2.3.6
+[DEBUG]  Detected android module: ti.touchid 1.0.0 @ C:\ProgramData\Titanium\modules\android\ti.touchid\1.0.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.10 @ C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.10
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ C:\ProgramData\Titanium\modules\commonjs\ti.cloud\3.2.11
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=test
+[INFO]   Found Titanium module id=ti.cloud version=3.2.11 platform=commonjs deploy-type=test path=C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.11
+[DEBUG]  Looking for Titanium module id=com.tokenbros.utils version=latest platform=android deploy-type=test
+[INFO]   Found Titanium module id=com.tokenbros.utils version=1.0.0 platform=android deploy-type=test path=C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\modules\android\com.tokenbros.utils\1.0.0
+[DEBUG]  Looking for Titanium module id=nl.fokkezb.html2as version=latest platform=commonjs deploy-type=test
+[INFO]   Found Titanium module id=nl.fokkezb.html2as version=1.5.0 platform=commonjs deploy-type=test path=C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\modules\commonjs\nl.fokkezb.html2as\1.5.0
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK Android directory: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android
+[INFO]   Deploy type: test
+[INFO]   Building for target: device
+[INFO]   Building for device: G8AZCY08M672LEB
+[INFO]   Targeting Android SDK API: 24
+[INFO]   Building for the following architectures: armeabi, armeabi-v7a, x86
+[INFO]   Signing with keystore: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\dev_keystore (tidev)
+[DEBUG]  App ID: com.klimeto.mobileWFS
+[DEBUG]  Classname: Mobilewfs
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Forcing rebuild: C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\build-manifest.json does not exist
+[TRACE]  offline build file C:\Users\klimeto\AppData\Local\Temp\build-21509c10b47fc85e5e1e5880d1f1b3ace5a0a229.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"tomas.kliment@geof.hr","session":"df205bfd4603723c48fa7ee405706b285efb5402 qpHW/iN6HybGrQU3BDIlgIpXV/I8XxBi51OAtGMfnwrlYu+c96/uCW0i+ZEuKGnHCZIaW8hbJ9V9CvQKZSV8YBMGqaXkSuRqIwEqtNG9t3+WiCVNsF9XcfzO7Fe4JQ5wl299Cnsn/m7J8ats3cXvcA0Xog58lC9LiewdwZ4PENU8aQaEEG8e7Opog2nDaXY2f3tjUVMNE5IniGanaBkZgI7DAU3ZK2jIplLDg6A7xrn7JDfTG80g2617oXKJLtwTws79dHWxg20f4eDAExMifnnU8Spify0K77SLudVEZdGTuUq41su6V3LNzA0jI0Qdq+jk1IB+pUtOIgO4UmUOqhcfm8N26pyc6POIJ7x/rcF0JdkiQ/Lx8eIn/Grrf6tMmtceXZlNNbF5wP/s+jFsflIkTHjt1z/4RLOMC0cn1PmTkxaZzv4m82eIn/DlN9Cse7L2XlU4a+vxiwGlRTRxKf/DsDNX12rLaNJcoDOlSxdByuvBjd8Bq1en2WJHo0IBAKMgilQx5yeVvMMqgkGY8tWVcADGOIKVqdu8rKByA6BU80fKu7tvZIh15lSZs5/QJmMWm7rkc+O0ShjQlCIudnWvHoBeTqi0iPxT7jVkkYbZonifPmZw3Mlfdj8FhHhbgYEAlj01Y8OXt4vUVlOQz6Qw7CK+TazCYxW7+i5RPhlMn9ma/a1999YFm6WUHMtm5PPCfDVfG1YTk+L8iQzfcqxMQ3tGvZcOI5ySynpZA7KFJOhlNKkSV2vQMFWedSQS5Iw6Fn4wk/g4W8InuTPDJsMqvobszydAeXFWnRZ6/7Y=","ipaddress":"192.168.56.1","fingerprint":"9caeca54b7e80410b45085c22e9db915803e3a24","fingerprint_description":"Windows Machine ID: 5f7d0da5-35cc-4116-99bc-2127e9165e96","guid":"a2d015af-0a49-4abf-9222-e8f43d397330","appid":"com.klimeto.mobileWFS","name":"mobileWFS","org_id":100084284,"deploytype":"test","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.klimeto.mobileWFS</id>\n  <name>mobileWFS</name>\n  <version>1.0</version>\n  <publisher>klimeto</publisher>\n  <url>http://klimeto.com/</url>\n  <description/>\n  <copyright>2016 by klimeto</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>a2d015af-0a49-4abf-9222-e8f43d397330</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <android android:installLocation=\"preferExternal\" \n    xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <manifest android:installLocation=\"preferExternal\">\n      <application android:debuggable=\"true\" android:hardwareAccelerated=\"false\"/>\n      <uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\"/>\n      <uses-permission android:name=\"android.permission.INTERNET\"/>\n      <uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>\n      <uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>\n      <uses-permission android:name=\"android.permission.BLUETOOTH\"/>\n      <uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\"/>\n      <uses-permission android:name=\"android.permission.CAMERA\"/>\n      <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>\n      <uses-feature android:name=\"android.hardware.camera\"/>\n      <uses-feature android:name=\"android.hardware.camera.autofocus\"/>\n      <permission android:label=\"BLUETOOTH\" android:name=\"android.permission.BLUETOOTH\"/>\n      <permission android:name=\"android.permission.BLUETOOTH_ADMIN\"/>\n    </manifest>\n  </android>\n  <mobileweb>\n    <precache/>\n    <splash>\n      <enabled>true</enabled>\n      <inline-css-images>true</inline-css-images>\n    </splash>\n    <theme>default</theme>\n  </mobileweb>\n  <modules>\n    <module platform=\"commonjs\">ti.cloud</module>\n    <module platform=\"android\">com.tokenbros.utils</module>\n    <module platform=\"commonjs\">nl.fokkezb.html2as</module>\n  </modules>\n  <deployment-targets>\n    <target device=\"iphone\">false</target>\n    <target device=\"ipad\">false</target>\n    <target device=\"android\">true</target>\n    <target device=\"mobileweb\">false</target>\n    <target device=\"windows\">false</target>\n  </deployment-targets>\n  <sdk-version>5.3.1.GA</sdk-version>\n  <property name=\"ti.android.threadstacksize\" type=\"int\">131072</property>\n  <property name=\"ti.android.httpclient.maxbuffersize\" type=\"int\">131072</property>\n  <property name=\"appc-app-id\" type=\"string\">57ac91dccf92122029df1022</property>\n  <property name=\"acs-authbase-url-development\" type=\"string\">***</property>\n  <property name=\"acs-base-url-development\" type=\"string\">***</property>\n  <property name=\"acs-oauth-secret-development\" type=\"string\">***</property>\n  <property name=\"acs-oauth-key-development\" type=\"string\">***</property>\n  <property name=\"acs-api-key-development\" type=\"string\">***</property>\n  <property name=\"acs-username-development\" type=\"string\">***</property>\n  <property name=\"acs-password-development\" type=\"string\">***</property>\n  <property name=\"acs-authbase-url-production\" type=\"string\">***</property>\n  <property name=\"acs-base-url-production\" type=\"string\">***</property>\n  <property name=\"acs-oauth-secret-production\" type=\"string\">***</property>\n  <property name=\"acs-oauth-key-production\" type=\"string\">***</property>\n  <property name=\"acs-api-key-production\" type=\"string\">***</property>\n  <property name=\"acs-username-production\" type=\"string\">***</property>\n  <property name=\"acs-password-production\" type=\"string\">***</property>\n  <property name=\"appc-org-id\" type=\"string\">100084284</property>\n  <property name=\"appc-creator-user-id\" type=\"string\">8427d263-7bdf-4e77-98a8-a225cc6961d3</property>\n</ti:app>","modules":[{"id":"ti.cloud","platform":["commonjs"],"deployType":["test"],"modulePath":"C:\\ProgramData\\Application Data\\Titanium\\modules\\commonjs\\ti.cloud\\3.2.11","version":"3.2.11","manifest":{"version":"3.2.11","description":"Appcelerator Cloud Services","author":"Dawson Toth, Jeff English, Jon Alter, Paul Lv, Michael Goff, and Pedro Enrique","license":"Appcelerator Commercial License","copyright":"Copyright (c) 2011-2014 by Appcelerator,  Inc.","name":"ti.cloud","moduleid":"ti.cloud","guid":"1056b5d2-2bb5-4339-b930-297637aeec4e","platform":"commonjs","minsdk":"2.1.0"},"native":false,"libFile":"C:\\ProgramData\\Application Data\\Titanium\\modules\\commonjs\\ti.cloud\\3.2.11\\ti.cloud.js"},{"id":"com.tokenbros.utils","platform":["android"],"deployType":["test"],"modulePath":"C:\\Users\\klimeto\\Documents\\Appcelerator_Studio_Workspace\\mobileWFS\\modules\\android\\com.tokenbros.utils\\1.0.0","version":"1.0.0","manifest":{"version":"1.0.0","apiversion":"2","architectures":"armeabi armeabi-v7a x86","description":"tbutils","author":"Your Name","license":"Specify your license","copyright":"Copyright (c) 2016 by Your Company","name":"tbutils","moduleid":"com.tokenbros.utils","guid":"e5091cfd-b404-41df-a933-8333b828f917","platform":"android","minsdk":"5.1.2.GA"},"native":true,"jarName":"tbutils.jar","jarFile":"C:\\Users\\klimeto\\Documents\\Appcelerator_Studio_Workspace\\mobileWFS\\modules\\android\\com.tokenbros.utils\\1.0.0\\tbutils.jar","hash":"5cb3901c8e9dfe316b38d0464b51d9ba","abis":["armeabi","armeabi-v7a","x86"],"bindings":{"proxies":{"com.tokenbros.utils.UtilsModule":{"superPackageName":"org.appcelerator.kroll","methods":{"rotateResizeImage":{"runOnUiThread":false,"hasInvocation":false,"args":[{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"filename","sourceName":"filename","type":"java.lang.String"},{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"size","sourceName":"size","type":"int"},{"converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"quality","sourceName":"quality","type":"int"}],"apiName":"rotateResizeImage","converter":"org.appcelerator.kroll.KrollConverter","defaultValueProvider":"org.appcelerator.kroll.KrollConverter","name":"__default_name__","returnType":"java.lang.Boolean"}},"superProxyBindingClassName":"org.appcelerator.kroll.KrollModuleBindingGen","proxyClassName":"UtilsModule","proxyAttrs":{"propertyAccessors":[],"fullAPIName":"Utils","name":"Utils","proxyClassName":"com.tokenbros.utils.UtilsModule","isTopLevel":false,"id":"com.tokenbros.utils"},"packageName":"com.tokenbros.utils","sourceName":"com.tokenbros.utils.UtilsModuleBindingGen","constants":{"ORIENTATION_ROTATE_180":{"proxyName":"ORIENTATION_ROTATE_180","name":"ORIENTATION_ROTATE_180","type":"int","value":3},"TAG_ORIENTATION":{"proxyName":"TAG_ORIENTATION","name":"TAG_ORIENTATION","type":"java.lang.String","value":"Orientation"},"ORIENTATION_ROTATE_270":{"proxyName":"ORIENTATION_ROTATE_270","name":"ORIENTATION_ROTATE_270","type":"int","value":8},"ORIENTATION_ROTATE_90":{"proxyName":"ORIENTATION_ROTATE_90","name":"ORIENTATION_ROTATE_90","type":"int","value":6}},"superProxyClassName":"KrollModule","isModule":true,"genClassName":"UtilsModuleBindingGen","onAppCreate":"onAppCreate"}},"modules":{"com.tokenbros.utils.UtilsModule":{"apiName":"Utils"}}}},{"id":"nl.fokkezb.html2as","platform":["commonjs"],"deployType":["test"],"modulePath":"C:\\Users\\klimeto\\Documents\\Appcelerator_Studio_Workspace\\mobileWFS\\modules\\commonjs\\nl.fokkezb.html2as\\1.5.0","version":"1.5.0","manifest":{"version":"1.5.0","description":"HTML to Attributed String parser for Titanium","author":"Fokke Zandbergen <mail@fokkezb.nl> (http://fokkezb.nl)","license":"LGPL-2.1","copyright":"Copyright © 2016 Fokke Zandbergen","name":"ti-html2as","moduleid":"nl.fokkezb.html2as","guid":"5be532b5-9e73-4515-bd8e-5472b0bf52f2","platform":"commonjs","minsdk":"3.3.0.GA"},"native":false,"libFile":"C:\\Users\\klimeto\\Documents\\Appcelerator_Studio_Workspace\\mobileWFS\\modules\\commonjs\\nl.fokkezb.html2as\\1.5.0\\nl.fokkezb.html2as.js"}]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"a/ttg8pbs5+ZTkhLPdCOoQ==","pepper":"BBprPq2u9Q29zo55w9cRxg==","hmacKey":"cugz4vgsVyP+pumQMHlbUQ==","o":100084284,"u":"8427d263-7bdf-4e77-98a8-a225cc6961d3","p":"free","i":"57ffbb2329ccbd092049ed9f","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources
+[DEBUG]  Ignoring C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\data\plantlist_latin.json
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\data\plantlist_latin.json => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\data\plantlist_latin.json
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\data\plantlist_sk.json
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\data\plantlist_sk.json => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\data\plantlist_sk.json
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\data\serviceType.json
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\data\serviceType.json => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\data\serviceType.json
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\about\index.html
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\about\index.html => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\about\index.html
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\acknow\index.html
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\acknow\index.html => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\acknow\index.html
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\help\index-home.html
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\help\index-home.html => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\help\index-home.html
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\help\index-map.html
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\help\index-map.html => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\help\index-map.html
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\ec_logo.jpg
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\img\ec_logo.jpg => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\ec_logo.jpg
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\FZKI_EN.gif
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\img\FZKI_EN.gif => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\FZKI_EN.gif
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\logo_125x125.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\img\logo_125x125.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\logo_125x125.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\mygeoss_logo.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\img\mygeoss_logo.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\mygeoss_logo.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\OGC_Logo_Border_Blue_2D.svg
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\img\OGC_Logo_Border_Blue_2D.svg => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\OGC_Logo_Border_Blue_2D.svg
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\proplant_logo.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\img\proplant_logo.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\proplant_logo.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\tick.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\img\tick.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\img\tick.png
+[DEBUG]  Copying and minifying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\lib\style.css => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\lib\style.css
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_beige.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\images\balloon_beige.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_beige.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_blue.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\images\balloon_blue.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_blue.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_brown.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\images\balloon_brown.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_brown.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_green.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\images\balloon_green.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_green.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_orange.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\images\balloon_orange.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_orange.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_pink.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\images\balloon_pink.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_pink.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_purple.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\images\balloon_purple.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_purple.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_yellow.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\images\balloon_yellow.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\balloon_yellow.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\location.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\images\location.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\images\location.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\index.html
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\index.html => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\index.html
+[DEBUG]  Copying and minifying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\layerswitcher.css => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\layerswitcher.css
+[DEBUG]  Copying and minifying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\ol3-layerswitcher.css => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\ol3-layerswitcher.css
+[DEBUG]  Copying and minifying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\ol3.css => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\ol3.css
+[DEBUG]  Copying and minifying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\samples.css => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\samples.css
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\terms\index.html
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\terms\index.html => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\terms\index.html
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\KS_nav_ui.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\KS_nav_ui.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\KS_nav_ui.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\KS_nav_views.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\KS_nav_views.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\KS_nav_views.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\appicon.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\appicon.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\appicon.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\app_ico.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\app_ico.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\app_ico.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\app_ico2.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\app_ico2.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\app_ico2.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\default.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable\background.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_autorenew_black_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_autorenew_black_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_autorenew_black_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_autorenew_white_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_autorenew_white_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_autorenew_white_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_delete_forever_black_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_delete_forever_black_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_delete_forever_black_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_delete_forever_white_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_delete_forever_white_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_delete_forever_white_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_format_line_spacing_black_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_format_line_spacing_black_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_format_line_spacing_black_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_format_line_spacing_white_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_format_line_spacing_white_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_format_line_spacing_white_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_help_black_24dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_help_black_24dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_help_black_24dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_help_outline_black_24dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_help_outline_black_24dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_help_outline_black_24dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_help_outline_white_24dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_help_outline_white_24dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_help_outline_white_24dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_image_black_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_image_black_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_image_black_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_image_white_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_image_white_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_image_white_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_language_black_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_language_black_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_language_black_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_language_white_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_language_white_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_language_white_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_mode_edit_black_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_mode_edit_black_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_mode_edit_black_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_photo_camera_black_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_photo_camera_black_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_photo_camera_black_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_photo_camera_white_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_photo_camera_white_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_photo_camera_white_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_radio_button_checked_black_24dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_radio_button_checked_black_24dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_radio_button_checked_black_24dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_radio_button_unchecked_black_24dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_radio_button_unchecked_black_24dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_radio_button_unchecked_black_24dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_reorder_black_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_reorder_black_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_reorder_black_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_reorder_white_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_reorder_white_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_reorder_white_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_sd_card_black_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_sd_card_black_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_sd_card_black_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_sd_card_white_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_sd_card_white_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_sd_card_white_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_search_black_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_search_black_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_search_black_48dp.png
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_search_white_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\drawable-xxhdpi\ic_search_white_48dp.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\images\drawable-xxhdpi\ic_search_white_48dp.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\res-long-land-hdpi\default.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable-long-land-hdpi\background.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\res-long-land-ldpi\default.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable-long-land-ldpi\background.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\res-long-port-hdpi\default.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable-long-port-hdpi\background.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\res-long-port-ldpi\default.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable-long-port-ldpi\background.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\res-notlong-land-hdpi\default.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable-notlong-land-hdpi\background.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\res-notlong-land-ldpi\default.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable-notlong-land-ldpi\background.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\res-notlong-land-mdpi\default.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable-notlong-land-mdpi\background.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\res-notlong-port-hdpi\default.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable-notlong-port-hdpi\background.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\res-notlong-port-ldpi\default.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable-notlong-port-ldpi\background.png
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\android\images\res-notlong-port-mdpi\default.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable-notlong-port-mdpi\background.png
+[DEBUG]  Copying C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.11\ti.cloud.js
+[DEBUG]  Copying C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.11\assets
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\modules\commonjs\nl.fokkezb.html2as\1.5.0\nl.fokkezb.html2as.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\modules\commonjs\nl.fokkezb.html2as\1.5.0\assets
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\appicon.png => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\drawable\appicon.png
+[INFO]   Processing JavaScript files
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\app.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\app.js
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\lib\jquery-2.2.0.min.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\lib\jquery-2.2.0.min.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\lib\jquery-2.2.0.min.js
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\jquery.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\jquery.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\jquery.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\layerswitcher.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\HTML\openlayers\layerswitcher.js
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\ol3-layerswitcher.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\ol3-layerswitcher.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\ol3-layerswitcher.js
+[WARN]   Overwriting file C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\ol3.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\HTML\openlayers\ol3.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\Resources\HTML\openlayers\ol3.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\alertinput.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\alertinput.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\button.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\button.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\camera.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\camera.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\common\FirstView.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\common\FirstView.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\datepicker.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\datepicker.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\functions.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\functions.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\handheld\android\ApplicationWindow.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\handheld\android\ApplicationWindow.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\handheld\ApplicationWindow.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\handheld\ApplicationWindow.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\image.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\image.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\imageCropped.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\imageCropped.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\label.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\label.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\list.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\list.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\map.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\map.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\scrollview.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\scrollview.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\tablet\ApplicationWindow.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\tablet\ApplicationWindow.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\textarea.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\textarea.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\textfield.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\textfield.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\Resources\ui\window.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ui\window.js
+[DEBUG]  Copying C:\ProgramData\Application Data\Titanium\modules\commonjs\ti.cloud\3.2.11\ti.cloud.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\ti.cloud.js
+[DEBUG]  Copying C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\modules\commonjs\nl.fokkezb.html2as\1.5.0\nl.fokkezb.html2as.js => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets\nl.fokkezb.html2as.js
+[INFO]   Encrypting JavaScript files: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\titanium_prep.win32.exe "com.klimeto.mobileWFS" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\assets" "app.js" "HTML/openlayers/layerswitcher.js" "ui/alertinput.js" "ui/button.js" "ui/camera.js" "ui/common/FirstView.js" "ui/datepicker.js" "ui/functions.js" "ui/handheld/android/ApplicationWindow.js" "ui/handheld/ApplicationWindow.js" "ui/image.js" "ui/imageCropped.js" "ui/label.js" "ui/list.js" "ui/map.js" "ui/scrollview.js" "ui/tablet/ApplicationWindow.js" "ui/textarea.js" "ui/textfield.js" "ui/window.js" "ti.cloud.js" "nl.fokkezb.html2as.js" "_app_props_.json"
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\kroll-v8.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-analytics.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\aps-analytics.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-android.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\jaxen-1.1.1.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\ti-commons-codec-1.3.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\kroll-common.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\titanium.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-app.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-ui.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-filesystem.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-media.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-appcompat.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\android-support-v4.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\android-support-v7-appcompat.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-cardview.jar
+[DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\cardview-v7-23.0.1.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-locale.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-network.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-xml.jar
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-platform.jar
+[DEBUG]  Unknown namespace platform.displaycaps, skipping
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-database.jar
+[DEBUG]  Unknown namespace api, skipping
+[DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-geolocation.jar
+[DEBUG]  Unknown namespace android.r.anim, skipping
+[DEBUG]  Unknown namespace android.r, skipping
+[DEBUG]  Unknown namespace app.deploytype, skipping
+[DEBUG]  Unknown namespace ui.ios, skipping
+[INFO]   Writing C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets\app.json
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-analytics.res.zip
+[DEBUG]  Copying C:\Users\klimeto\AppData\Local\Temp\116913-5564-jfgykk\res\values\strings.xml => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-android.res.zip
+[DEBUG]  Merging C:\Users\klimeto\AppData\Local\Temp\116913-5564-mxlvri\res\values\strings.xml => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-app.res.zip
+[DEBUG]  Merging C:\Users\klimeto\AppData\Local\Temp\116913-5564-1efz24f\res\values\strings.xml => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-filesystem.res.zip
+[DEBUG]  Merging C:\Users\klimeto\AppData\Local\Temp\116913-5564-1n0t8oj\res\values\strings.xml => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-media.res.zip
+[DEBUG]  Merging C:\Users\klimeto\AppData\Local\Temp\116913-5564-1mxp6ly\res\values\strings.xml => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-locale.res.zip
+[DEBUG]  Merging C:\Users\klimeto\AppData\Local\Temp\116913-5564-13ljpii\res\values\strings.xml => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-network.res.zip
+[DEBUG]  Merging C:\Users\klimeto\AppData\Local\Temp\116913-5564-4bhewg\res\values\strings.xml => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-xml.res.zip
+[DEBUG]  Merging C:\Users\klimeto\AppData\Local\Temp\116913-5564-1yaq3tu\res\values\strings.xml => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-platform.res.zip
+[DEBUG]  Merging C:\Users\klimeto\AppData\Local\Temp\116913-5564-hzg9ag\res\values\strings.xml => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-database.res.zip
+[DEBUG]  Merging C:\Users\klimeto\AppData\Local\Temp\116913-5564-1ku0wwq\res\values\strings.xml => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-geolocation.res.zip
+[DEBUG]  Merging C:\Users\klimeto\AppData\Local\Temp\116913-5564-1hrlztk\res\values\strings.xml => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[DEBUG]  Removing old file: C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\.classpath
+[DEBUG]  Removing old file: C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\.gitignore
+[DEBUG]  Removing old file: C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\.project
+[DEBUG]  Removing old file: C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\AndroidManifest.xml
+[DEBUG]  Removing old file: C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\default.properties
+[DEBUG]  Removing old file: C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\java-sources.txt
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\templates\build\AppInfo.java => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\gen\com\klimeto\mobileWFS\MobilewfsAppInfo.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\templates\build\App.java => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\gen\com\klimeto\mobileWFS\MobilewfsApplication.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\templates\build\Activity.java => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\gen\com\klimeto\mobileWFS\MobilewfsActivity.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\templates\build\project => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\.project
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\templates\build\default.properties => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\default.properties
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\templates\build\gitignore => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\.gitignore
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\templates\build\classpath => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\.classpath
+[INFO]   No aidl files to compile, continuing
+[INFO]   Generating i18n files
+[DEBUG]  Compiling localization files
+[DEBUG]  Processing i18n file: en/strings.xml
+[DEBUG]  Processing i18n file: ja/strings.xml
+[DEBUG]  Merging en strings => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\strings.xml
+[DEBUG]  Writing ja strings => C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values-ja\strings.xml
+[INFO]   Generating C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res\values\theme.xml
+[INFO]   Packaging application: E:\android-sdk-win\build-tools\23.0.3\aapt.exe "package" "-f" "-m" "-J" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\gen" "-M" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\AndroidManifest.xml" "-A" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\assets" "-S" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\res" "-I" "E:\android-sdk-win\platforms\android-24\android.jar" "-F" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview" "-S" "C:\Users\klimeto\AppData\Local\Temp\116913-5564-1nipl7z/res" "-S" "C:\Users\klimeto\AppData\Local\Temp\116913-5564-1mga0o2/res" "-S" "C:\Users\klimeto\AppData\Local\Temp\116913-5564-ehnten/res"
+[INFO]   Building Java source files: C:\Program Files (x86)\Java\jdk1.8.0_91\bin\javac.exe "-J-Xmx1024M" "-encoding" "utf8" "-bootclasspath" "E:\android-sdk-win\platforms\android-24\android.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\kroll-v8.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\aps-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-android.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\jaxen-1.1.1.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\ti-commons-codec-1.3.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\kroll-common.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\titanium.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-app.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-ui.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\nineoldandroids-appc-2.4.0.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-filesystem.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-media.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\android-support-v4.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\android-support-v7-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-cardview.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\cardview-v7-23.0.1.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-locale.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-network.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-xml.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-platform.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-database.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-geolocation.jar;C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\modules\android\com.tokenbros.utils\1.0.0\tbutils.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\kroll-apt.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\lib\titanium-verify.jar;Manifest.class;R.class;AssetCryptImpl.class;MobilewfsActivity.class;MobilewfsAppInfo.class;MobilewfsApplication.class" "-d" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\java-sources.txt"
+[INFO]   Running dexer: C:\Program Files (x86)\Java\jdk1.8.0_91\bin\java.exe "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=E:\android-sdk-win\platform-tools" "-jar" "E:\android-sdk-win\build-tools\23.0.3\lib\dx.jar" "--dex" "--output=C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\classes.dex" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\classes" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\lib\titanium-verify.jar" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\modules\android\com.tokenbros.utils\1.0.0\tbutils.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\kroll-v8.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\aps-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-android.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\jaxen-1.1.1.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\ti-commons-codec-1.3.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\kroll-common.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\titanium.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-app.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-ui.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\nineoldandroids-appc-2.4.0.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-filesystem.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-media.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\android-support-v4.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\android-support-v7-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-cardview.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\cardview-v7-23.0.1.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-locale.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-network.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-xml.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-platform.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-database.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-geolocation.jar"
+[INFO]   Creating unsigned apk
+[DEBUG]  Processing C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\app.ap_
+[DEBUG]  Deflating AndroidManifest.xml
+[DEBUG]  Deflating assets/Resources/HTML/about/index.html
+[DEBUG]  Deflating assets/Resources/HTML/acknow/index.html
+[DEBUG]  Deflating assets/Resources/HTML/help/index-home.html
+[DEBUG]  Deflating assets/Resources/HTML/help/index-map.html
+[DEBUG]  Adding assets/Resources/HTML/img/FZKI_EN.gif
+[DEBUG]  Deflating assets/Resources/HTML/img/OGC_Logo_Border_Blue_2D.svg
+[DEBUG]  Adding assets/Resources/HTML/img/ec_logo.jpg
+[DEBUG]  Adding assets/Resources/HTML/img/logo_125x125.png
+[DEBUG]  Adding assets/Resources/HTML/img/mygeoss_logo.png
+[DEBUG]  Adding assets/Resources/HTML/img/proplant_logo.png
+[DEBUG]  Adding assets/Resources/HTML/img/tick.png
+[DEBUG]  Deflating assets/Resources/HTML/lib/jquery-2.2.0.min.js
+[DEBUG]  Deflating assets/Resources/HTML/lib/style.css
+[DEBUG]  Adding assets/Resources/HTML/openlayers/images/balloon_beige.png
+[DEBUG]  Adding assets/Resources/HTML/openlayers/images/balloon_blue.png
+[DEBUG]  Adding assets/Resources/HTML/openlayers/images/balloon_brown.png
+[DEBUG]  Adding assets/Resources/HTML/openlayers/images/balloon_green.png
+[DEBUG]  Adding assets/Resources/HTML/openlayers/images/balloon_orange.png
+[DEBUG]  Adding assets/Resources/HTML/openlayers/images/balloon_pink.png
+[DEBUG]  Adding assets/Resources/HTML/openlayers/images/balloon_purple.png
+[DEBUG]  Adding assets/Resources/HTML/openlayers/images/balloon_yellow.png
+[DEBUG]  Adding assets/Resources/HTML/openlayers/images/location.png
+[DEBUG]  Deflating assets/Resources/HTML/openlayers/index.html
+[DEBUG]  Deflating assets/Resources/HTML/openlayers/jquery.js
+[DEBUG]  Deflating assets/Resources/HTML/openlayers/layerswitcher.css
+[DEBUG]  Deflating assets/Resources/HTML/openlayers/ol3-layerswitcher.css
+[DEBUG]  Deflating assets/Resources/HTML/openlayers/ol3-layerswitcher.js
+[DEBUG]  Deflating assets/Resources/HTML/openlayers/ol3.css
+[DEBUG]  Deflating assets/Resources/HTML/openlayers/ol3.js
+[DEBUG]  Deflating assets/Resources/HTML/openlayers/samples.css
+[DEBUG]  Deflating assets/Resources/HTML/terms/index.html
+[DEBUG]  Adding assets/Resources/KS_nav_ui.png
+[DEBUG]  Adding assets/Resources/KS_nav_views.png
+[DEBUG]  Adding assets/Resources/app_ico.png
+[DEBUG]  Adding assets/Resources/app_ico2.png
+[DEBUG]  Adding assets/Resources/appicon.png
+[DEBUG]  Deflating assets/Resources/data/plantlist_latin.json
+[DEBUG]  Deflating assets/Resources/data/plantlist_sk.json
+[DEBUG]  Deflating assets/Resources/data/serviceType.json
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_autorenew_black_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_autorenew_white_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_delete_forever_black_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_delete_forever_white_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_format_line_spacing_black_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_format_line_spacing_white_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_help_black_24dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_help_outline_black_24dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_help_outline_white_24dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_image_black_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_image_white_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_language_black_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_language_white_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_mode_edit_black_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_photo_camera_black_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_photo_camera_white_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_radio_button_checked_black_24dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_radio_button_unchecked_black_24dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_reorder_black_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_reorder_white_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_sd_card_black_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_sd_card_white_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_search_black_48dp.png
+[DEBUG]  Adding assets/Resources/images/drawable-xxhdpi/ic_search_white_48dp.png
+[DEBUG]  Deflating assets/app.json
+[DEBUG]  Deflating assets/index.json
+[DEBUG]  Deflating res/anim/abc_fade_in.xml
+[DEBUG]  Deflating res/anim/abc_fade_out.xml
+[DEBUG]  Deflating res/anim/abc_grow_fade_in_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_popup_enter.xml
+[DEBUG]  Deflating res/anim/abc_popup_exit.xml
+[DEBUG]  Deflating res/anim/abc_shrink_fade_out_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_top.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_top.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color-v23/abc_color_highlight_material.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_light.xml
+[DEBUG]  Deflating res/color/abc_search_url_text.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_light.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_dark.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_light.xml
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-long-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-notlong-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-mdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-mdpi-v4/background.png
+[DEBUG]  Deflating res/drawable-v21/abc_action_bar_item_background_material.xml
+[DEBUG]  Deflating res/drawable-v21/abc_btn_colored_material.xml
+[DEBUG]  Deflating res/drawable-v23/abc_control_background_material.xml
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Deflating res/drawable/abc_btn_borderless_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_check_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_colored_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_default_mtrl_shape.xml
+[DEBUG]  Deflating res/drawable/abc_btn_radio_material.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_internal_bg.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_top_material.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_dark.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_light.xml
+[DEBUG]  Deflating res/drawable/abc_edit_text_material.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_ratingbar_full_material.xml
+[DEBUG]  Deflating res/drawable/abc_spinner_textfield_background_material.xml
+[DEBUG]  Deflating res/drawable/abc_switch_thumb_material.xml
+[DEBUG]  Deflating res/drawable/abc_tab_indicator_material.xml
+[DEBUG]  Deflating res/drawable/abc_text_cursor_material.xml
+[DEBUG]  Deflating res/drawable/abc_textfield_search_material.xml
+[DEBUG]  Adding res/drawable/appicon.png
+[DEBUG]  Adding res/drawable/background.png
+[DEBUG]  Adding res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Adding res/drawable/btn_more_64.png
+[DEBUG]  Adding res/drawable/disclosure_64.png
+[DEBUG]  Deflating res/layout-v17/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_search_view.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_big_media.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_big_media_narrow.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_lines.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_media.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_part_chronometer.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_part_time.xml
+[DEBUG]  Deflating res/layout-v21/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout-v21/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Deflating res/layout-v21/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_title_item.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_up_container.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_view_list_nav_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_bar.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_close_item_material.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view_list_item.xml
+[DEBUG]  Deflating res/layout/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout/abc_expanded_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_checkbox.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_icon.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_radio.xml
+[DEBUG]  Deflating res/layout/abc_popup_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_screen_content_include.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple_overlay_action_mode.xml
+[DEBUG]  Deflating res/layout/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout/abc_search_dropdown_item_icons_2line.xml
+[DEBUG]  Deflating res/layout/abc_search_view.xml
+[DEBUG]  Deflating res/layout/abc_select_dialog_material.xml
+[DEBUG]  Deflating res/layout/notification_media_action.xml
+[DEBUG]  Deflating res/layout/notification_media_cancel_action.xml
+[DEBUG]  Deflating res/layout/notification_template_big_media.xml
+[DEBUG]  Deflating res/layout/notification_template_big_media_narrow.xml
+[DEBUG]  Deflating res/layout/notification_template_lines.xml
+[DEBUG]  Deflating res/layout/notification_template_media.xml
+[DEBUG]  Deflating res/layout/notification_template_part_chronometer.xml
+[DEBUG]  Deflating res/layout/notification_template_part_time.xml
+[DEBUG]  Deflating res/layout/select_dialog_item_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_multichoice_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_singlechoice_material.xml
+[DEBUG]  Deflating res/layout/support_simple_spinner_dropdown_item.xml
+[DEBUG]  Deflating res/layout/titanium_tabgroup.xml
+[DEBUG]  Deflating res/layout/titanium_ui_checkbox.xml
+[DEBUG]  Deflating res/layout/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Deflating res/layout/titanium_ui_edittext.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_item.xml
+[DEBUG]  Deflating res/layout/titanium_ui_spinner.xml
+[DEBUG]  Deflating res/layout/titanium_ui_switchcompat.xml
+[DEBUG]  Deflating res/layout/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Deflating resources.arsc
+[DEBUG]  Processing C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\modules\android\com.tokenbros.utils\1.0.0\tbutils.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\kroll-v8.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-analytics.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\aps-analytics.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-android.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\jaxen-1.1.1.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\ti-commons-codec-1.3.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\kroll-common.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\titanium.jar
+[DEBUG]  Deflating org/appcelerator/titanium/build.properties
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/background.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_100.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_100.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_64.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-app.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-ui.jar
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-filesystem.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-media.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-appcompat.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\android-support-v4.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\android-support-v7-appcompat.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-cardview.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\cardview-v7-23.0.1.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-locale.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-network.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-xml.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-platform.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-database.jar
+[DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\modules\titanium-geolocation.jar
+[DEBUG]  Adding classes.dex
+[INFO]   Processing C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\src
+[DEBUG]  Adding lib/armeabi/libkroll-v8.so
+[DEBUG]  Adding lib/armeabi/libstlport_shared.so
+[DEBUG]  Adding lib/armeabi/libtiverify.so
+[DEBUG]  Adding lib/armeabi-v7a/libkroll-v8.so
+[DEBUG]  Adding lib/armeabi-v7a/libstlport_shared.so
+[DEBUG]  Adding lib/armeabi-v7a/libtiverify.so
+[DEBUG]  Adding lib/x86/libkroll-v8.so
+[DEBUG]  Adding lib/x86/libstlport_shared.so
+[DEBUG]  Adding lib/x86/libtiverify.so
+[DEBUG]  Adding lib/armeabi/libcom.tokenbros.utils.so
+[DEBUG]  Adding lib/armeabi-v7a/libcom.tokenbros.utils.so
+[DEBUG]  Adding lib/x86/libcom.tokenbros.utils.so
+[INFO]   Writing unsigned apk: C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\app-unsigned.apk
+[INFO]   Using MD5withRSA signature algorithm
+[INFO]   Signing apk: C:\Program Files (x86)\Java\jdk1.8.0_91\bin\jarsigner.exe "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "C:\ProgramData\Titanium\mobilesdk\win32\5.3.1.GA\android\dev_keystore" "-storepass" "*******" "-signedjar" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\mobileWFS.apk" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\app-unsigned.apk" "tidev"
+[INFO]   Aligning zip file: E:\android-sdk-win\build-tools\23.0.3\zipalign.exe "-v" "4" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\mobileWFS.apk" "C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\mobileWFS.apkz"
+[INFO]   Writing build manifest: C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\build-manifest.json
+[INFO]   Making sure the adb server is running
+[INFO]   Installing apk: C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\mobileWFS.apk
+[INFO]   Installing app on device: ASUS_Z017D
+[TRACE]  Checking if package manager service is started
+[TRACE]  Package manager has started
+[TRACE]  Executing: E:\android-sdk-win\platform-tools\adb.exe -s G8AZCY08M672LEB install -r C:\Users\klimeto\Documents\Appcelerator_Studio_Workspace\mobileWFS\build\android\bin\mobileWFS.apk
+[INFO]   App successfully installed
+[INFO]   Starting app: com.klimeto.mobileWFS/.MobilewfsActivity
+[DEBUG]  Trying to start the app...
+[INFO]   Application pid: 15096
+-- Start application log -----------------------------------------------------
+[INFO]   art: Late-enabling -Xcheck:jni
+[INFO]   TiApplication: (main) [0,0] checkpoint, app created.
+[WARN]   W/        : Unable to open '/system/framework/ifaamanager.jar': No such file or directory
+[WARN]   art: Failed to open zip archive '/system/framework/ifaamanager.jar': I/O Error
+[INFO]   TiApplication: (main) [61,61] Titanium 5.3.1 (2016/06/09 01:34 ee11b10)
+[TRACE]  Monotype: SetAppTypeFace- try to flip, app = com.klimeto.mobileWFS
+[TRACE]  Monotype:     Typeface getFontPathFlipFont - systemFont = default#default
+[INFO]   DatabaseHelper: No value in database for platform key: 'unique_machine_id' returning supplied default ''
+[INFO]   DatabaseHelper: No value in database for platform key: 'hardware_machine_id' returning supplied default ''
+[INFO]   TiApplication: (main) [100,161] Titanium Javascript runtime: v8
+[INFO]   TiRootActivity: (main) [0,0] checkpoint, on root activity create, savedInstanceState: null
+[DEBUG]  APSAnalyticsModel: Creating Database appcAnalytics.db
+[WARN]   TiTempFileHelper: (main) [56,56] The external temp directory doesn't exist, skipping cleanup
+[WARN]   V8Object: (KrollRuntimeThread) [28,84] Runtime disposed, cannot set property 'userAgent'
+[INFO]   Project built successfully in 47s 175ms
